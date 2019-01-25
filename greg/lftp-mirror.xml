@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Container>
+  <Name>lftp-mirror</Name>
+  <Support>https://hub.docker.com/r/gregyankovoy/lftp-mirror/</Support>
+  <Description>Mirrors and removes files from a remote lftp folder to a local folder.</Description>
+  <Overview>Mirrors and removes files from a remote lftp folder to a local folder.</Overview>
+  <Registry>https://hub.docker.com/r/gregyankovoy/lftp-mirror//Dockerfile/</Registry>
+  <Repository>gregyankovoy/lftp-mirror</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>Host</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>Host Port</Name>
+      <Value>22</Value>
+    </Variable>
+    <Variable>
+      <Name>Username</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>Remote Directory</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>LFTP Parts</Name>
+      <Value>1</Value>
+    </Variable>
+    <Variable>
+      <Name>LFTP Files</Name>
+      <Value>1</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/download</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+</Container>
