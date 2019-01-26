@@ -10,28 +10,36 @@
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name>Host</Name>
+      <Name>HOST</Name>
       <Value></Value>
     </Variable>
     <Variable>
-      <Name>Host Port</Name>
+      <Name>PORT</Name>
       <Value>22</Value>
     </Variable>
     <Variable>
-      <Name>Username</Name>
+      <Name>USERNAME</Name>
       <Value></Value>
     </Variable>
     <Variable>
-      <Name>Remote Directory</Name>
+      <Name>REMOTE_DIR</Name>
       <Value></Value>
     </Variable>
     <Variable>
-      <Name>LFTP Parts</Name>
+      <Name>LFTP_PARTS</Name>
       <Value>1</Value>
     </Variable>
     <Variable>
-      <Name>LFTP Files</Name>
+      <Name>LFTP_FILES</Name>
       <Value>1</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
     </Variable>
   </Environment>
   <Networking>
