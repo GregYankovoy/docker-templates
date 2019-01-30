@@ -51,11 +51,6 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/download</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
   <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
 </Container>
