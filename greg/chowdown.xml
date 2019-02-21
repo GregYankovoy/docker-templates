@@ -36,5 +36,5 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:4000]/</WebUI>
-  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <Icon>https://raw.githubusercontent.com/gregyankovoy/docker-templates/master/greg/img/chowdown-logo.png</Icon>
 </Container>
